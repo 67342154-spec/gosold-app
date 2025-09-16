@@ -27,7 +27,7 @@ const GoDrinkLogo = () => (
 );
 
 const categories = [
-    { name: 'Coffee', thaiName: 'iPAD', icon: CoffeeIcon, color: 'bg-pink-100' },
+    { name: 'iPad', thaiName: 'ไอแพด', icon: CoffeeIcon, color: 'bg-pink-100' },
     { name: 'Tea', thaiName: 'LapTop', icon: TeaIcon, color: 'bg-sky-100' },
     { name: 'Smoothies', thaiName: 'Smart Phone', icon: SmoothieIcon, color: 'bg-green-100' },
     { name: 'Special', thaiName: 'Smart Watch', icon: SpecialDrinkIcon, color: 'bg-yellow-100' },
