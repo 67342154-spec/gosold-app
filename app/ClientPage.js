@@ -11,7 +11,7 @@ const PlusCircleIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg
 const MinusCircleIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="12" x2="16" y2="12"></line></svg>;
 const ChevronLeftIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="15 18 9 12 15 6"></polyline></svg>;
 const SpecialDrinkIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>;
-const CoffeeIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M10 2v2" /><path d="M14 2v2" /><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" /><path d="M6 2v2" /></svg>;
+
 const TeaIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z" /><path d="M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0" /></svg>;
 const SmoothieIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8" /><path d="M5 8h14" /><path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0" /><path d="m12 8 1-6h2" /></svg>;
 
@@ -22,15 +22,15 @@ const GoDrinkLogo = () => (
             <path d="M5 8h14"/>
             <path d="m12 8 1-6h2"/>
         </svg>
-        <span className="text-2xl font-bold tracking-wider">GoDrink</span>
+        <span className="text-2xl font-bold tracking-wider">GoSales</span>
     </div>
 );
 
 const categories = [
-    { name: 'Coffee', thaiName: 'IPAD', icon: CoffeeIcon, color: 'bg-pink-100' },
-    { name: 'Tea', thaiName: 'Notebook', icon: TeaIcon, color: 'bg-sky-100' },
-    { name: 'Smoothies', thaiName: 'Smart phone', icon: SmoothieIcon, color: 'bg-green-100' },
-    { name: 'Special', thaiName: 'เมนูพิเศษ', icon: SpecialDrinkIcon, color: 'bg-yellow-100' },
+    { name: 'Coffee', thaiName: 'iPAD', icon: CoffeeIcon, color: 'bg-pink-100' },
+    { name: 'Tea', thaiName: 'LapTop', icon: TeaIcon, color: 'bg-sky-100' },
+    { name: 'Smoothies', thaiName: 'Smart Phone', icon: SmoothieIcon, color: 'bg-green-100' },
+    { name: 'Special', thaiName: 'Smart Watch', icon: SpecialDrinkIcon, color: 'bg-yellow-100' },
 ];
 
 // --- Components ---

@@ -110,4 +110,5 @@ export default async function HomePage() {
 
   // Pass data to a Client Component
   return <ClientPage initialProducts={products} />;
+  
 }
