@@ -22,7 +22,7 @@ const GoDrinkLogo = () => (
             <path d="M5 8h14"/>
             <path d="m12 8 1-6h2"/>
         </svg>
-        <span className="text-2xl font-bold tracking-wider">GoSales</span>
+        <span className="text-2xl font-bold tracking-wider">GoSale</span>
     </div>
 );
 
